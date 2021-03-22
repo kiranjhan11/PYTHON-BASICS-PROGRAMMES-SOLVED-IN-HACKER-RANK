@@ -1,0 +1,9 @@
+n = int(input())
+if n>=2 and n<=10:
+    arr1=list(map(int,input(). strip(). split()))
+    x=max(arr1)
+    arr2=[str(int) for int in arr1] 
+    for i in range(arr1.count(x)):
+          arr1.remove(x)
+    print(max(arr1))
+   
